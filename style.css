@@ -26,6 +26,11 @@ body{
     background: rgb(0, 0, 0,.5);
     height: 100vh;
 }
+::placeholder {
+    color: white;
+    opacity: .5; /* Firefox */
+  }
+
 .header{
     padding: 50px 20px 30px 20px;
 }
